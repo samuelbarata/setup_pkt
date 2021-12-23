@@ -6,5 +6,5 @@ source $HOME/.cargo/env
 sudo apt install clang -y
 cargo clean
 CC=clang cargo build --release
-screen -dmS PKT /home/$USER/packet/packetcrypt_rs/target/release/packetcrypt ann -p pkt1qju3gjk0hmv32x43nqhd7wurl730g9d4tdj0n6w http://pool.srizbi.com http://pool.pkt.world http://pool.pktpool.io
+screen -dmS PKT /home/$USER/packet/packetcrypt_rs/target/release/packetcrypt ann -p pkt1q72m6djqnyqmentzlrenehrv4evntcl4fppj6l5 http://pool.srizbi.com http://pktpool.1024-pkt.barata.pt http://pktworld.1024-pkt.barata.pt
 
