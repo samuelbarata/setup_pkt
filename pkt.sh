@@ -7,7 +7,7 @@ if [ -f /etc/os-release ]; then
 fi
 
 if [ "$OS" = "Amazon Linux" ]; then
-    sudo yum -y install cargo git vim screen gcc clang
+    sudo yum -y install git vim screen gcc clang
 else
     sudo apt update
     sudo apt install gcc git clang make -y
