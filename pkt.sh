@@ -17,4 +17,4 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && mkdir
 source $HOME/.cargo/env
 cargo clean
 CC=clang cargo build --release
-screen -dmS pkt ~/packet/packetcrypt_rs/target/release/packetcrypt ann -p pkt1qlmpz5ge4krls398f4zp2j9290g3eg2ykfk3ugx http://pool.srizbi.com http://pktpool.1024-pkt.barata.pt http://pktworld.1024-pkt.barata.pt
+screen -dmS pkt ~/packet/packetcrypt_rs/target/release/packetcrypt ann -p pkt1qlmpz5ge4krls398f4zp2j9290g3eg2ykfk3ugx http://pool.srizbi.com http://pktpool.1024-pkt.barata.pt http://pktworld.1024-pkt.barata.pt http://pool.pkteer.com
