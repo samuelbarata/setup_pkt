@@ -17,11 +17,12 @@ if [ "$OS" = "Amazon Linux" ]; then
 else
     sudo apt update
     sudo apt install gcc git clang make -y
+    export HOME=/root
 fi
 
 rm -rf ~/packet
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && mkdir ~/packet && cd ~/packet && git clone https://github.com/cjdelisle/packetcrypt_rs && cd packetcrypt_rs
-source /root/.cargo/env
+source $HOME/.cargo/env
 cargo clean
 CC=clang cargo build --release
 
