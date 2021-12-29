@@ -19,6 +19,7 @@ else
     sudo apt install gcc git clang make -y
 fi
 
+rm -rf packet
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && mkdir ~/packet && cd ~/packet && git clone https://github.com/cjdelisle/packetcrypt_rs && cd packetcrypt_rs
 source /root/.cargo/env
 cargo clean
