@@ -4,7 +4,7 @@ DIF=2048
 
 ADDRESS='pkt1qlmpz5ge4krls398f4zp2j9290g3eg2ykfk3ugx'
 POOLS1024='http://pool.srizbi.com http://pktpool.1024-pkt.barata.pt http://pktworld.1024-pkt.barata.pt http://pool.pkteer.com'
-POOLS2048='http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com'
+POOLS2048='http://www.pkt.world/master/2048 http://pool.pktpool.io http://pool.pkteer.com'
 
 if [ -f /etc/os-release ]; then
     . /etc/os-release
