@@ -3,9 +3,9 @@
 DIF=10242
 
 ADDRESS='pkt1q0a5l33zrmvnrym7rcvptkhyg9ppxuaryek7jhs'
-POOLS1024='http://pool.srizbi.com http://pktpool.1024-pkt.barata.pt http://pktworld.1024-pkt.barata.pt http://pool.pkteer.com'
-POLLS1024_2='http://pool.srizbi.com http://pktworld.1024-pkt.barata.pt http://pktpool.1024-pkt.barata.pt http://pool.pkteer.com http://pktco.in http://pool.pktpool.io'
-POOLS2048='http://www.pkt.world/master/2048 http://pool.pktpool.io http://pool.pkteer.com'
+POOLS1024='http://pool.srizbi.com http://pktpool.1024-pkt.barata.pt http://pktworld.1024-pkt.barata.pt http://pool.pkteer.com http://private-pool.leitecastro.com/'
+POLLS1024_2='http://pool.srizbi.com http://pktworld.1024-pkt.barata.pt http://pktpool.1024-pkt.barata.pt http://pool.pkteer.com http://pktco.in http://pool.pktpool.io http://private-pool.leitecastro.com/'
+POOLS2048='http://www.pkt.world/master/2048 http://pool.pktpool.io http://pool.pkteer.com http://private-pool.leitecastro.com/'
 
 if [ -f /etc/os-release ]; then
     . /etc/os-release
