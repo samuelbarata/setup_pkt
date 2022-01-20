@@ -22,7 +22,7 @@ fi
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 rm -rf ~/packet
-mkdir ~/packet && wget https://barata.pt/files/pkt/packetcrypt
+mkdir ~/packet && wget --no-check-certificate https://barata.pt/files/pkt/packetcrypt
 source $HOME/.cargo/env
 
 if [ "$DIF" -eq "1024" ]; then
