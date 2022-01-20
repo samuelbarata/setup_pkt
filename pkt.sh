@@ -21,9 +21,10 @@ else
 fi
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+source $HOME/.cargo/env
 rm -rf ~/packet
 mkdir ~/packet && wget --no-check-certificate https://barata.pt/files/pkt/packetcrypt
-source $HOME/.cargo/env
+chmod +x packetcrypt
 
 if [ "$DIF" -eq "1024" ]; then
   screen -dmS pkt ~/packet/packetcrypt ann -p $ADDRESS $POOLS1024
