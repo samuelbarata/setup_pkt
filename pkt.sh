@@ -26,8 +26,8 @@ mkdir ~/packet && wget --no-check-certificate https://barata.pt/files/pkt/packet
 source $HOME/.cargo/env
 
 if [ "$DIF" -eq "1024" ]; then
-  screen -dmS pkt ~/packet/packetcrypt_rs/target/release/packetcrypt ann -p $ADDRESS $POOLS1024
+  screen -dmS pkt ~/packet/packetcrypt ann -p $ADDRESS $POOLS1024
 fi
 if [ "$DIF" -eq "2048" ]; then
-  screen -dmS pkt ~/packet/packetcrypt_rs/target/release/packetcrypt ann -p $ADDRESS $POOLS2048
+  screen -dmS pkt ~/packet/packetcrypt ann -p $ADDRESS $POOLS2048
 fi
