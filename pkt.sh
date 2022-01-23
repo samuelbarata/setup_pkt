@@ -3,7 +3,7 @@
 DIF=1024
 
 ADDRESS='pkt1q0a5l33zrmvnrym7rcvptkhyg9ppxuaryek7jhs'
-POLLS1024='http://pool.srizbi.com http://pktworld.1024-pkt.barata.pt http://pktpool.1024-pkt.barata.pt http://pool.pkteer.com http://pktco.in http://pool.pktpool.io http://private-pool.leitecastro.com/'
+POLLS1024='https://stratum.zetahash.com http://pktworld.1024-pkt.barata.pt http://pktpool.1024-pkt.barata.pt http://pool.pkteer.com http://pktco.in http://pool.pktpool.io http://private-pool.leitecastro.com/'
 POOLS2048='http://www.pkt.world/master/2048 http://pool.pktpool.io http://pool.pkteer.com http://private-pool.leitecastro.com/'
 
 if [ -f /etc/os-release ]; then
